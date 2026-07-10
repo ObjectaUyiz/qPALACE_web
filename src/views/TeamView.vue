@@ -37,10 +37,9 @@ const roleGroups = computed(() => {
   }
 
   return [
-    { label: 'Professors & Research Scientists', people: professors },
+    { label: 'Research Faculty', people: professors },
     { label: 'Postdoctoral Researchers', people: postdocs },
-    { label: 'PhD Students', people: phds },
-    { label: 'MS & Undergraduate Students', people: ms_ug },
+    { label: 'Graduate Students', people: [...phds, ...ms_ug] },
   ].filter((g) => g.people.length > 0)
 })
 
@@ -79,7 +78,7 @@ function profileLink(p: Person, key: string): string | undefined {
           People
         </h1>
         <p class="mt-3 text-base text-slate-600">
-          The people behind qPALACE — principal investigator, professors, postdocs, and students. Click a card to view a member's full profile.
+          Meet the team behind qPALACE — our principal investigator, research faculty, and graduate students working on SFQ design automation.
         </p>
       </div>
 
@@ -105,7 +104,8 @@ function profileLink(p: Person, key: string): string | undefined {
               {{ pi.firstName }} {{ pi.lastName }}
             </h3>
             <p class="mt-0.5 text-xs text-primary-700 font-medium">{{ pi.title }}</p>
-            <p class="mt-1 text-xs text-slate-500 line-clamp-2">{{ pi.department }}</p>
+            <p v-if="pi.bio" class="mt-2 text-xs text-slate-600 line-clamp-3">{{ pi.bio }}</p>
+            <p v-else class="mt-1 text-xs text-slate-500 line-clamp-2">{{ pi.department }}</p>
             <!-- Profile icons (includes email as first icon) -->
             <div class="mt-3 flex flex-wrap justify-center gap-2">
               <template v-for="pf in PROFILE_PLATFORMS" :key="pf.key">
@@ -153,7 +153,8 @@ function profileLink(p: Person, key: string): string | undefined {
               {{ person.firstName }} {{ person.lastName }}
             </h3>
             <p class="mt-0.5 text-xs text-primary-700 font-medium">{{ person.title }}</p>
-            <p class="mt-1 text-xs text-slate-500 line-clamp-2">{{ person.department }}</p>
+            <p v-if="person.bio" class="mt-2 text-xs text-slate-600 line-clamp-3">{{ person.bio }}</p>
+            <p v-else class="mt-1 text-xs text-slate-500 line-clamp-2">{{ person.department }}</p>
             <!-- Profile icons (includes email as first icon) -->
             <div class="mt-3 flex flex-wrap justify-center gap-2">
               <template v-for="pf in PROFILE_PLATFORMS" :key="pf.key">

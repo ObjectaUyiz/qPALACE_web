@@ -14,5 +14,11 @@
     "github": "",
     "personalWebsite": ""
   },
+  "bio": "Zhiyuan works on SFQ cell design, cell layout design, and cell tool management for the qPALACE project.",
+  "researchInterests": [
+    "Cell Design",
+    "Cell Layout",
+    "Standard Cell Libraries"
+  ],
   "highlightsAuthorInPapers": true
 }

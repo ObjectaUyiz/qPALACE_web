@@ -14,5 +14,11 @@
     "github": "",
     "personalWebsite": ""
   },
+  "bio": "Jingkai focuses on logic synthesis, routing, and static timing analysis (STA) for SFQ circuits in the qPALACE project.",
+  "researchInterests": [
+    "Logic Synthesis",
+    "Routing",
+    "Static Timing Analysis"
+  ],
   "highlightsAuthorInPapers": true
 }

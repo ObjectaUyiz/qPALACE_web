@@ -14,5 +14,11 @@
     "github": "",
     "personalWebsite": ""
   },
+  "bio": "Ziyu works on placement, routing, and static timing analysis (STA) for SFQ circuits in the qPALACE project.",
+  "researchInterests": [
+    "Placement",
+    "Routing",
+    "Static Timing Analysis"
+  ],
   "highlightsAuthorInPapers": true
 }

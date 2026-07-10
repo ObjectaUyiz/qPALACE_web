@@ -14,5 +14,10 @@
     "github": "",
     "personalWebsite": ""
   },
+  "bio": "Chonghao focuses on verification for SFQ circuits in the qPALACE project.",
+  "researchInterests": [
+    "Verification",
+    "Circuit Simulation"
+  ],
   "highlightsAuthorInPapers": true
 }

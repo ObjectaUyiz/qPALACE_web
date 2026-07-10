@@ -14,5 +14,11 @@
     "github": "",
     "personalWebsite": ""
   },
+  "bio": "Changxu focuses on SFQ cell layout design and cell tool management for the qPALACE project.",
+  "researchInterests": [
+    "Cell Layout Design",
+    "Standard Cell Libraries",
+    "Physical Design Tools"
+  ],
   "highlightsAuthorInPapers": true
 }
