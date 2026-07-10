@@ -7,11 +7,11 @@ const pis = getPIs()
 
 const PROFILE_PLATFORMS = [
   { key: 'email',           label: 'Email',            icon: '@' },
-  { key: 'phone',           label: 'Phone',            icon: '📞' },
   { key: 'googleScholar',   label: 'Google Scholar',   icon: 'GS' },
-  { key: 'linkedin',        label: 'LinkedIn',         icon: 'in' },
-  { key: 'github',          label: 'GitHub',           icon: 'GH' },
-  { key: 'personalWebsite', label: 'Website',          icon: '🌐' },
+  // { key: 'phone',           label: 'Phone',            icon: '📞' },
+  // { key: 'linkedin',        label: 'LinkedIn',         icon: 'in' },
+  // { key: 'github',          label: 'GitHub',           icon: 'GH' },
+  // { key: 'personalWebsite', label: 'Website',          icon: '🌐' },
 ]
 
 // Group people by role category

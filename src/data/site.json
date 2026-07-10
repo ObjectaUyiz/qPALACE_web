@@ -19,8 +19,7 @@
     { "id": "papers",    "label": "Papers",     "to": "/papers" },
     { "id": "slides",    "label": "Slides",     "to": "/slides" },
     { "id": "team",      "label": "Team",       "to": "/team" },
-    { "id": "resources", "label": "Resources",  "to": "/resources" },
-    { "id": "libraries", "label": "Libraries",  "to": "/libraries-license" }
+    { "id": "resources", "label": "Resources",  "to": "/resources" }
   ],
   "hero": {
     "eyebrow": "SPORTLab at USC",
