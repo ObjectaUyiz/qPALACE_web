@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Vue",
+    "version": "3.4.x",
+    "license": "MIT",
+    "url": "https://github.com/vuejs/core",
+    "author": "Evan You and contributors",
+    "description": "Progressive JavaScript framework used for the site UI."
+  },
+  {
+    "name": "Vue Router",
+    "version": "4.3.x",
+    "license": "MIT",
+    "url": "https://github.com/vuejs/router",
+    "author": "Eduardo San Martin Morote and contributors",
+    "description": "Official router for Vue.js, used for client-side navigation."
+  },
+  {
+    "name": "Vite",
+    "version": "5.x",
+    "license": "MIT",
+    "url": "https://github.com/vitejs/vite",
+    "author": "Evan You and Vite contributors",
+    "description": "Frontend build tool powering the dev server and production build."
+  },
+  {
+    "name": "Tailwind CSS",
+    "version": "3.4.x",
+    "license": "MIT",
+    "url": "https://github.com/tailwindlabs/tailwindcss",
+    "author": "Tailwind Labs",
+    "description": "Utility-first CSS framework used for layout and components."
+  },
+  {
+    "name": "PostCSS",
+    "version": "8.x",
+    "license": "MIT",
+    "url": "https://github.com/postcss/postcss",
+    "author": "PostCSS contributors",
+    "description": "CSS transformation pipeline used by the Tailwind toolchain."
+  },
+  {
+    "name": "Autoprefixer",
+    "version": "10.x",
+    "license": "MIT",
+    "url": "https://github.com/postcss/autoprefixer",
+    "author": "Andrey Sitnik and contributors",
+    "description": "Adds vendor prefixes to CSS based on browser support data."
+  },
+  {
+    "name": "TypeScript",
+    "version": "5.x",
+    "license": "Apache-2.0",
+    "url": "https://github.com/microsoft/TypeScript",
+    "author": "Microsoft Corporation",
+    "description": "Typed superset of JavaScript used for component scripts."
+  },
+  {
+    "name": "vue-tsc",
+    "version": "2.x",
+    "license": "MIT",
+    "url": "https://github.com/vuejs/language-tools",
+    "author": "Vue.js language tools contributors",
+    "description": "TypeScript command-line wrapper that performs Vue SFC type checking."
+  },
+  {
+    "name": "Inter (Google Fonts)",
+    "version": "—",
+    "license": "OFL-1.1",
+    "url": "https://github.com/rsms/inter",
+    "author": "Rasmus Andersson",
+    "description": "UI sans-serif font family loaded for site typography."
+  },
+  {
+    "name": "JetBrains Mono",
+    "version": "—",
+    "license": "OFL-1.1",
+    "url": "https://github.com/JetBrains/JetBrainsMono",
+    "author": "JetBrains s.r.o.",
+    "description": "Monospace font family used for code and BibTeX blocks."
+  }
+]

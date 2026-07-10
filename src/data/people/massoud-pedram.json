@@ -1,0 +1,39 @@
+{
+  "type": "pi",
+  "slug": "massoud-pedram",
+  "firstName": "Massoud",
+  "lastName": "Pedram",
+  "title": "Professor",
+  "appointments": [
+    "Research Productivity or Research Stipend",
+    "Research Productivity",
+    "Ming Hsieh Department of Electrical and Computer Engineering"
+  ],
+  "department": "Ming Hsieh Department of Electrical and Computer Engineering",
+  "school": "USC Viterbi School of Engineering",
+  "institution": "University of Southern California",
+  "office": {
+    "room": "EEB 300B",
+    "building": "Hughes Aircraft Electrical Engineering Center",
+    "street": "3740 McClintock Ave.",
+    "city": "Los Angeles, CA 90089",
+    "mailCode": "USC Mail Code: 2562"
+  },
+  "email": "pedram@ceng.usc.edu",
+  "phone": "+1 (213) 740-4458",
+  "profiles": {
+    "googleScholar": "",
+    "linkedin": "",
+    "github": "",
+    "personalWebsite": "https://viterbi.usc.edu/directory/faculty/Pedram/Massoud"
+  },
+  "bio": "Professor Massoud directs the SPORTLab at the University of Southern California. His research focuses on electronic design automation, computer-aided design for emerging technologies, and design methodologies for superconducting and quantum computing systems.",
+  "researchInterests": [
+    "Electronic Design Automation (EDA)",
+    "Computer-Aided Design for emerging technologies",
+    "Superconducting / SFQ logic design",
+    "Quantum computing systems",
+    "Logic synthesis, placement, and routing"
+  ],
+  "highlightsAuthorInPapers": true
+}

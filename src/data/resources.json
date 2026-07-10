@@ -1,0 +1,38 @@
+[
+  {
+    "title": "qPALACE on GitHub",
+    "description": "Source code, releases, and ongoing development for the qPALACE framework and related tools.",
+    "url": "https://github.com/USC-qPALACE/qpalace",
+    "type": "Code"
+  },
+  {
+    "title": "Quantum Compiler Benchmark Suite",
+    "description": "Open benchmark suite for evaluating quantum compilers on near-term hardware.",
+    "url": "https://github.com/USC-qPALACE/quantum-bench",
+    "type": "Code"
+  },
+  {
+    "title": "Documentation",
+    "description": "User guide, API reference, and tutorials for qPALACE.",
+    "url": "https://USC-qPALACE.github.io/qpalace/docs/",
+    "type": "Docs"
+  },
+  {
+    "title": "Project Datasets",
+    "description": "Curated datasets used in qPALACE publications and benchmarks.",
+    "url": "/datasets",
+    "type": "Dataset"
+  },
+  {
+    "title": "SPORTLab Homepage",
+    "description": "Visit the SPORTLab at USC for news, events, and contact information.",
+    "url": "https://sportlab.usc.edu/",
+    "type": "Website"
+  },
+  {
+    "title": "Related Project: Lattice Surgery Toolkit",
+    "description": "Companion tool for T-count reduction experiments referenced in our ISCA 2025 work.",
+    "url": "https://github.com/USC-qPALACE/lattice-surgery",
+    "type": "Code"
+  }
+]

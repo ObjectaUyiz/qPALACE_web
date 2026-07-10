@@ -1,0 +1,47 @@
+[
+  {
+    "id": "qPALACE-flow-rsfq",
+    "title": "qPALACE Flow for RSFQ Logic Design",
+    "subtitle": "End-to-end compiler for Single Flux Quantum (SFQ) logic design",
+    "image": "/images/carousel/qPALACE_flow_RSFQ.svg",
+    "alt": "Illustration of the qPALACE flow for SFQ logic design",
+    "link": "/overview",
+    "linkLabel": "Learn more"
+  },
+  {
+    "id": "qPALACE-flow-aqfp",
+    "title": "qPALACE Flow for AQFP Logic Design",
+    "subtitle": "End-to-end compiler for Adiabatic Quantum Flux Parametric (AQFP) logic design",
+    "image": "/images/carousel/qPALACE_flow_AQFP.svg",
+    "alt": "Illustration of the qPALACE flow for AQFP logic design",
+    "link": "/overview",
+    "linkLabel": "Learn more"
+  },
+  {
+    "id": "placement-routing",
+    "title": "Placement & Routing",
+    "subtitle": "Layout-aware placement with timing- and path-length-driven routing",
+    "image": "/images/carousel/qPALACE_flow_pnr.svg",
+    "alt": "Illustration of the qPALACE placement and routing pipeline",
+    "link": "/overview",
+    "linkLabel": "Learn more"
+  },
+  {
+    "id": "cell-library",
+    "title": "Cell Library Toolkit",
+    "subtitle": "Cell characterization, optimization, and library export",
+    "image": "/images/carousel/qPALACE_flow_cell.svg",
+    "alt": "Illustration of the qPALACE cell library toolkit",
+    "link": "/resources",
+    "linkLabel": "Resources"
+  },
+  {
+    "id": "GDS",
+    "title": "GDSII generation",
+    "subtitle": "Generate of placed and routed designs in GDSII format",
+    "image": "/images/carousel/KSA16GDS.pdf",
+    "alt": "Illustration of the qPALACE GDSII generation functionality",
+    "link": "/overview",
+    "linkLabel": "Learn more"
+  }
+]

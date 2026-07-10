@@ -1,0 +1,45 @@
+{
+  "name": "qPALACE",
+  "shortName": "qPALACE",
+  "acronym": "Physical and Logical Aware Compiler Engine for Single Flux Quantum Logic",
+  "tagline": "Physical and Logical Aware Compiler Engine for Single Flux Quantum Logic",
+  "description": "Maps high-level designs (Verilog HDL or BLIF) to a placed-and-routed SFQ chip — with logic synthesis, placement, clock tree synthesis, routing, timing analysis, and circuit-level simulation. Outputs DEF, with GDSII export from qPALACE.",
+  "keywords": ["qPALACE", "SPORTLab", "USC", "SFQ", "single flux quantum", "superconducting", "logic synthesis", "placement", "routing", "timing analysis", "CTS", "DEF", "GDSII"],
+  "author": "SPORTLab, USC",
+  "labName": "SPORTLab",
+  "labUrl": "https://sportlab.usc.edu/",
+  "institution": "University of Southern California",
+  "department": "Ming Hsieh Department of Electrical and Computer Engineering",
+  "school": "USC Viterbi School of Engineering",
+  "githubUrl": "https://github.com/USC-qPALACE/qpalace",
+  "lastUpdated": "2026-07-09",
+  "navigation": [
+    { "id": "home",      "label": "Home",       "to": "/" },
+    { "id": "overview",  "label": "Overview",   "to": "/overview" },
+    { "id": "papers",    "label": "Papers",     "to": "/papers" },
+    { "id": "slides",    "label": "Slides",     "to": "/slides" },
+    { "id": "team",      "label": "Team",       "to": "/team" },
+    { "id": "resources", "label": "Resources",  "to": "/resources" },
+    { "id": "libraries", "label": "Libraries",  "to": "/libraries-license" }
+  ],
+  "hero": {
+    "eyebrow": "SPORTLab at USC",
+    "title": "qPALACE",
+    "subtitle": "Physical and Logical Aware Compiler Engine for Single Flux Quantum Logic",
+    "description": "Maps high-level designs (Verilog HDL or BLIF) to a placed-and-routed SFQ chip. The flow covers logic synthesis, placement, clock tree synthesis, routing, timing analysis, and circuit-level simulation. The final output is a placed-and-routed netlist in DEF, with GDSII export from qPALACE.",
+    "primaryCta":   { "label": "Contact us",        "href": "mailto:pedram@ceng.usc.edu" },
+    "secondaryCta": { "label": "Read the overview", "to":   "/overview" }
+  },
+  "contact": {
+    "intro": "qPALACE is distributed on request. For evaluation, collaboration, or press inquiries, please contact the project lead.",
+    "personSlug": "pedram-massoud"
+  },
+  "funding": {
+    "intro": "The development of qPALACE is supported by the Office of the Director of National Intelligence (ODNI), Intelligence Advanced Research Projects Activity (IARPA) SuperTools program, via the U.S. Army Research Office grant W911NF-17-1-0120; the Army Research Lab Combat Development (ARL-DEVCOM) under the Foundations of the Superconductor Logic — FSDL: ColdPhase project, grant number W911NF2410317; and by the National Science Foundation (NSF) under the Expedition: DISCoVER — Design and Integration of Superconducting Computation for Ventures beyond Exascale Realization project, grant number 2124453.",
+    "disclaimer": "The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the ODNI, IARPA, ARL, NSF, or the U.S. government. The U.S. Government is authorized to reproduce and distribute copies for Governmental purposes, notwithstanding any copyright notation herein."
+  },
+  "home": {
+    "showNews": true,
+    "newsCount": 4
+  }
+}

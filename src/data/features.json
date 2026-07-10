@@ -1,0 +1,30 @@
+[
+  {
+    "id": "synthesis",
+    "title": "SFQ Logic Synthesis",
+    "description": "Compile high-level descriptions of SFQ pipelines into optimized gate-level netlists, with support for clock-phase balancing and cell remapping.",
+    "learnMoreUrl": "/overview#synthesis",
+    "thumbnail": "/images/carousel/synthesis.svg"
+  },
+  {
+    "id": "placement-routing",
+    "title": "Placement & Routing",
+    "description": "Layout-aware placement driven by SFQ timing constraints, followed by path-length-aware routing that respects clock-phase skew budgets.",
+    "learnMoreUrl": "/overview#placement-routing",
+    "thumbnail": "/images/carousel/qPALACE_flow_pnr.svg"
+  },
+  {
+    "id": "timing-analysis",
+    "title": "Timing Analysis",
+    "description": "Static checks for pipeline slack and skew, with dynamic simulation hooks for verifying SFQ timing correctness on real designs.",
+    "learnMoreUrl": "/overview#timing-analysis",
+    "thumbnail": "/images/carousel/timing.svg"
+  },
+  {
+    "id": "cell-library",
+    "title": "Cell Library Toolkit",
+    "description": "Tools for characterizing SFQ cells, optimizing cell parameters, and exporting standard cell libraries in formats used by qPALACE.",
+    "learnMoreUrl": "/overview#cell-library",
+    "thumbnail": "/images/carousel/qPALACE_flow_cell.svg"
+  }
+]

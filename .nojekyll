@@ -1,0 +1,2 @@
+# Place this file in your repo to tell GitHub Pages NOT to use Jekyll.
+# This ensures Vite-generated paths (e.g. /assets/index-abc123.js) are served as-is.

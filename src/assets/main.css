@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Base ---------- */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 72px; /* offset for sticky navbar */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-white text-slate-800 font-sans;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-slate-900;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+
+  /* Focus ring for keyboard users */
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary-400 ring-offset-2 ring-offset-white rounded;
+  }
+}
+
+/* ---------- Components ---------- */
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-container px-5 sm:px-6 lg:px-8;
+  }
+
+  .section-anchor {
+    @apply scroll-mt-24;
+  }
+
+  .section-title {
+    @apply text-2xl sm:text-3xl font-semibold tracking-tight text-slate-900;
+  }
+
+  .section-subtitle {
+    @apply mt-2 text-base text-slate-600 max-w-2xl;
+  }
+
+  .card {
+    @apply rounded-xl border border-slate-200 bg-white shadow-soft;
+  }
+
+  .card-hover {
+    @apply transition-shadow hover:shadow-card;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-700 text-white hover:bg-primary-800;
+  }
+
+  .btn-outline {
+    @apply btn border border-slate-300 text-slate-700 hover:bg-slate-50;
+  }
+
+  .btn-ghost {
+    @apply btn text-slate-700 hover:bg-slate-100;
+  }
+
+  .tag {
+    @apply inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-2.5 py-0.5 text-xs font-medium text-slate-600;
+  }
+
+  .tag-primary {
+    @apply tag border-primary-100 bg-primary-50 text-primary-700;
+  }
+
+  .tag-accent {
+    @apply tag border-accent-200 bg-accent-50 text-accent-500;
+  }
+
+  .tag-success {
+    @apply tag border-emerald-100 bg-emerald-50 text-emerald-700;
+  }
+
+  .tag-warn {
+    @apply tag border-amber-100 bg-amber-50 text-amber-700;
+  }
+
+  .link-academic {
+    @apply text-primary-700 hover:text-primary-900 hover:underline underline-offset-2;
+  }
+
+  .citation-link {
+    @apply inline-flex items-center px-2 py-0.5 -mx-1 text-xs font-medium text-primary-700 hover:text-primary-900 hover:bg-primary-50 rounded transition-colors;
+  }
+}
+
+/* ---------- Utilities ---------- */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
