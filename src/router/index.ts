@@ -49,6 +49,12 @@ const routes: RouteRecordRaw[] = [
     component: () => import('@/views/LibrariesLicenseView.vue'),
     meta: { title: 'Libraries & Licenses' },
   },
+  {
+    path: '/coming-soon',
+    name: 'coming-soon',
+    component: () => import('@/views/ComingSoonView.vue'),
+    meta: { title: 'Coming Soon' },
+  },
   // Catch-all redirects to home
   {
     path: '/:pathMatch(.*)*',
