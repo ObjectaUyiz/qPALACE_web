@@ -7,12 +7,26 @@
   "department": "Ming Hsieh Department of Electrical and Computer Engineering",
   "school": "USC Viterbi School of Engineering",
   "institution": "University of Southern California",
-  "email": "",
+  "email": "razmkhah@usc.edu",
   "profiles": {
     "googleScholar": "",
     "linkedin": "",
     "github": "",
     "personalWebsite": "https://sportlab.usc.edu/~sasan/"
   },
+  "bio": "Sasan is an accomplished researcher and lecturer with expertise in cryogenic and superconductor electronics. He earned his B.Sc. in electrical engineering in 2009 and his M.Sc. in 2011 from the Sharif University of Technology in Tehran, Iran, specializing in electrical engineering with a focus on devices and nanotechnology. In 2018, he completed his Ph.D. with a thesis titled \"Low Power, High-Speed Computing Using Rapid Single Flux Quantum Circuits.\" Joining the superconductivity group (Supra) at CNRS IMEP-LaHC laboratory as a postdoctoral researcher in 2018, Sasan contributed to the ColdFlux/SuperTools project. Following this, he served as an Assistant Professor in the Department of Electric and Electronics Engineering at TOBB ETU. Currently, he holds the position of a research scholar in the SPORT-Lab, located within the Ming Hsieh Electrical and Computer Engineering Department (ECE) at the University of Southern California (USC). Sasan's research primarily focuses on superconductivity, covering areas such as low-power digital architectures, integrated circuits, neural networks, superconductor quantum electronics, microwave electronics, and sensors & detectors. His diverse research interests include novel computing architectures, ultra-low power and microwave integrated circuits, quantum computing, and cryogenics. Presently, he is actively engaged in research as part of the NSF-funded Expedition: DISCoVER project.",
+  "researchInterests": [
+    "Superconductivity",
+    "Low-power digital architectures",
+    "Integrated circuits",
+    "Neural networks",
+    "Superconductor quantum electronics",
+    "Microwave electronics",
+    "Sensors & detectors",
+    "Novel computing architectures",
+    "Ultra-low power integrated circuits",
+    "Quantum computing",
+    "Cryogenics"
+  ],
   "highlightsAuthorInPapers": true
 }
